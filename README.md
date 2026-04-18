@@ -1,22 +1,29 @@
 # CodVeda Simple Calculator
 
-A basic Python calculator that performs the four primary arithmetic operations:
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+A clean and beginner-friendly Python calculator that performs the four primary arithmetic operations:
 
-It also handles division by zero with an appropriate error message.
+➕ Addition  
+➖ Subtraction  
+✖️ Multiplication  
+➗ Division  
+
+Built with simplicity, clarity, and scalability in mind.
+
+---
 
 ## Features
 
-- Clean and beginner-friendly Python code
-- Separate functions for each arithmetic operation
-- User input for two numbers
-- Operation selection menu
-- Error handling for invalid numeric input
-- Division-by-zero protection
+- Modular function-based design
+- User-friendly CLI interface
+- Input validation (handles non-numeric input)
+- Division-by-zero error handling
+- Clean and readable code structure
+
+---
 
 ## Project Structure
 
@@ -25,24 +32,24 @@ CodVeda_Simple_Calculator/
 │── main.py
 │── README.md
 │── .gitignore
+│── LICENSE
 
-### Author: Engr. Bethel Amadi
 
-### `.gitignore`
-```gitignore
-# Python cache files
-__pycache__/
-*.py[cod]
+---
 
-# Virtual environments
-.venv/
-venv/
-env/
+## **LICENSE (MIT License)**
 
-# IDE settings
-.vscode/
-.idea/
+Create a file named `LICENSE`:
 
-# OS files
-.DS_Store
-Thumbs.db
+```text
+MIT License
+
+Copyright (c) 2026 Bethel Amadi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software...
+
+(You can paste full MIT text here or I can provide complete version)
